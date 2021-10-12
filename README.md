@@ -1,12 +1,33 @@
-# OmegaBlockchain - Linux & macOS QT Wallets
 
-Linux &amp; macOS QT versions of the OmegaBlockchain coin wallet app found at https://github.com/OmegaBlockchain/omegacoin
+![alt text](http://www.explorer.omegablockchain.net/OMEGA_full.png "Omega Network Logo")
+# OmegaBlockchain -  Social Network Reinvented.
+# NEW 0.13.0.0 wallet version just have been published.
+# We are starting with the anonymous messaging.
 
-## Build
+http://omegablockchain.net/
 
-The apps have been built from the source code cloned from https://github.com/OmegaBlockchain/omegacoin and is found in the respective branches in this repository. The `main` branch only contains the wallet apps themselves.
+#
 
-The current wallet apps are built off the [OmegaCoin 0.13.0.1][omega-release] release and you will find this source in this repo's [0.13.0.1][branch] branch. Switch to the [0.13.0.1][branch] branch to build from source.
 
-[omega-release]: https://github.com/OmegaBlockchain/omegacoin/releases/tag/0.13.0.1
-[branch]: https://github.com/justinhartman/omegacoin/tree/0.13.0.1
+### SPECIFICATIONS
+| Specification | Value |
+|:-----------|:-----------|
+| Block Spacing | `80 seconds` |
+| Coin Maturity | `100 confirmations` |
+| Masternode Requirement | `1000 OMEGA` |
+| Masternode Reward | `80% ~ 30%` |
+| Total Coin Supply | `33.000.000 OMEGA` |
+| Port | `7777` |
+| RPC Port | `7778` |
+
+# omegacoin-Masternode Setup 0.13.0.0
+
+wget https://github.com/RottenCoin/omegacoin/raw/master/omega_setup.sh
+
+chmod 755 omega_setup.sh
+
+./omega_setup.sh
+
+# Omega Sentinel quick installation:
+
+No longer required
